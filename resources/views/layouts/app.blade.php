@@ -75,6 +75,17 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer>
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('app.name', 'Laravel') }}
+                </a>
+                <div class="right">
+                    Version: {{$gitTag}}
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

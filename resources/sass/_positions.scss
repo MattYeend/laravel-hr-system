@@ -1,3 +1,14 @@
+html, body {
+	height: 100%;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+// Padding
 .pb-1{
 	padding-bottom: 1px;
 }
@@ -364,8 +375,7 @@
 	padding-left: 50px;
 }
 
-
-
+// Margin
 .mb-1{
 	margin-bottom: 1px;
 }
@@ -736,6 +746,7 @@
 	text-align: left;
 }
 
+// Text position
 .text-right{
 	text-align: right;
 }
@@ -744,6 +755,7 @@
 	text-align: center;
 }
 
+// General position
 .center{
 	margin: auto;
 	width: 50%;
@@ -754,4 +766,12 @@
 
 .right{
 	float: right;
+}
+
+// Footer
+footer{
+	margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+	box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
 }
